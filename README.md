@@ -39,7 +39,7 @@ This is because we use **SystemBuilder** in *Gulpfile.js* to bundle all of the *
 #### Minification
 
 ```
-gulp run:minify
+gulp minify
 ```
 This will produce *app.js* &amp; *app.css* which should be used instead of the references from the above screenshot.
 
