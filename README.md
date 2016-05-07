@@ -36,6 +36,13 @@ Instead of the usual myriad of scripts the *index.html* in this demo only contai
 
 This is because we use **SystemBuilder** in *Gulpfile.js* to bundle all of the **@angular2** scripts &amp; other libs (shims, polyfills, systemjs itself etc.).
 
+#### Minification
+
+```
+gulp run:minify
+```
+This will produce *app.js* &amp; *app.css* which should be used instead of the references from the above screenshot.
+
 #### LICENSE
 
 [MIT](https://github.com/brakmic/Angular2-Playground/blob/master/LICENSE)
