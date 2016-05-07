@@ -43,6 +43,12 @@ gulp minify
 ```
 This will produce *app.js* &amp; *app.css* which should be used instead of the references from the above screenshot.
 
+#### Watch with dynamic compilation and deployment
+
+```
+gulp watch
+```
+
 #### LICENSE
 
 [MIT](https://github.com/brakmic/Angular2-Playground/blob/master/LICENSE)
