@@ -33,7 +33,7 @@ gulp.task("concat:libs", ["clean"], () => {
 
 // generate systemjs-based builds
 gulp.task("systemjs:build", [ "compile" ], () => {
-    var builder = new SysBuilder();
+    let builder = new SysBuilder();
     return builder.loadConfig("./system.config.js")
         .then(() => builder.buildStatic("app", "dist/libs/bundle.js"))
         .then(() => del("build"));
