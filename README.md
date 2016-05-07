@@ -30,11 +30,11 @@ gulp
 ```
 ![gulp](http://fs5.directupload.net/images/160507/9f43evtc.png)
 
-Instead of the `usual` script-tag torrent the main index.html in this demo only contains two script-tags.
+Instead of the *usual* script-torrent the main index.html in this demo only contains two script-tags.
 
 ![index.html](http://fs5.directupload.net/images/160507/jb6aovgl.png)
 
-This is because we use **SystemBuilder** in *Gulpfile.js* to bundle all of the **@angular2** scripts &amp; other libs (shims, polyfills, systemjs itself etc.). 
+This is because we use **SystemBuilder** in *Gulpfile.js* to bundle all of the **@angular2** scripts &amp; other libs (shims, polyfills, systemjs itself etc.).
 
 #### LICENSE
 
