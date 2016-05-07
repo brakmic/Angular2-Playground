@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "dist/app",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts"
+  ],
+  "files": [
+    "src/app/components/app.component.ts",
+    "src/app/main.ts",
+    "typings/main.d.ts",
+    "typings/main/ambient/es6-shim/index.d.ts",
+    "typings/main/ambient/require.d.ts"
+  ],
+  "filesGlob": [
+    "src/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
