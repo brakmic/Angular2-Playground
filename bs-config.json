@@ -1,3 +1,0 @@
-{
-  "files": ["index.html","./app/**/*.{html,css,ts,js}","../node_modules/**/*"]
-}
