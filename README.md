@@ -30,7 +30,7 @@ gulp
 ```
 ![gulp](http://fs5.directupload.net/images/160507/9f43evtc.png)
 
-Instead of the *usual* script-torrent the main index.html in this demo only contains two script-tags.
+Instead of the usual myriad of scripts the *index.html* in this demo only contains two script-tags.
 
 ![index.html](http://fs5.directupload.net/images/160507/jb6aovgl.png)
 
