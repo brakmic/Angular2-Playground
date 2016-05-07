@@ -8,6 +8,14 @@ Angular2-rc1 environment based on:
 * [TSLint](https://palantir.github.io/tslint/)
 * [Hapi](http://hapijs.com/)
 
+#### Articles on Angular 2
+
+[Part 1](http://blog.brakmic.com/introduction-to-angular-2-part-1/)
+
+[Part 2](http://blog.brakmic.com/introduction-to-angular-2-part-2/)
+
+#### Screenshot
+
 ![demo](http://fs5.directupload.net/images/160507/8ly9fgn4.png)
 
 #### Installation
