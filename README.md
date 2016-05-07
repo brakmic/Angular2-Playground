@@ -1,6 +1,6 @@
 ### Angular2 Playground
 
-Angular2 environment based on:
+Angular2-rc1 environment based on:
 
 * [Gulp](http://gulpjs.com/)
 * [SystemJS](https://github.com/systemjs/systemjs)
