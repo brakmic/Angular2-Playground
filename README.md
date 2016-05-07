@@ -8,30 +8,30 @@ Angular2-rc1 environment based on:
 * [TSLint](https://palantir.github.io/tslint/)
 * [Hapi](http://hapijs.com/)
 
-#### Articles on Angular 2
+##### Articles on Angular 2
 
 [Part 1](http://blog.brakmic.com/introduction-to-angular-2-part-1/)
 
 [Part 2](http://blog.brakmic.com/introduction-to-angular-2-part-2/)
 
-#### Screenshot
+##### Screenshot
 
 ![demo](http://fs5.directupload.net/images/160507/8ly9fgn4.png)
 
-#### Installation
+##### Installation
 
 ```
 npm install
 ```
 
-#### Running (with Hapi web-server)
+##### Running (with Hapi web-server)
 
 ```
 npm start
 ```
 ![server](http://fs5.directupload.net/images/160507/mb5jjuml.png)
 
-#### Building (with linting, bundling &amp; deployment)
+##### Building (with linting, bundling &amp; deployment)
 
 ```
 gulp
@@ -44,19 +44,19 @@ Instead of the usual myriad of scripts the *index.html* in this demo only contai
 
 This is because we use **SystemBuilder** in *Gulpfile.js* to bundle all of the **@angular2** scripts &amp; other libs (shims, polyfills, systemjs itself etc.).
 
-#### Minification
+##### Minification
 
 ```
 gulp minify
 ```
 This will produce *app.js* &amp; *app.css* which should be used instead of the references from the above screenshot.
 
-#### Watch with dynamic compilation and deployment
+##### Watch with dynamic compilation and deployment
 
 ```
 gulp watch
 ```
 
-#### LICENSE
+##### LICENSE
 
 [MIT](https://github.com/brakmic/Angular2-Playground/blob/master/LICENSE)
