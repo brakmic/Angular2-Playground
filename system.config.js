@@ -5,7 +5,7 @@ System.config({
 			"app": "dist/app",
 		},
 		paths: {
-			"bows": "node_modules/bows/dist/bows.min.js",	
+			"bows": "node_modules/bows/dist/bows.min.js",
 		},
 		packages: {
 			"@angular/core": {

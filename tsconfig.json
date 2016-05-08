@@ -10,7 +10,7 @@
     "removeComments": false,
     "noImplicitAny": false
   },
-  "compileOnSave": true,
+  "compileOnSave": false,
   "exclude": [
     "node_modules",
     "typings/browser",

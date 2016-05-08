@@ -5,7 +5,7 @@ const log: any = bows("AppComponent");
 
 @Component({
   selector: "ang2-app",
-  templateUrl: "app/templates/app.template.html",
+  templateUrl: "../templates/app.template.html",
 })
 export class AppComponent {
 

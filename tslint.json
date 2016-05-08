@@ -7,11 +7,11 @@
       "statements"
     ],
     "ban": [
-        true,
-        [ "_", "forEach" ],
-        [ "_", "each" ],
-        [ "$", "each" ],
-        [ "angular", "forEach" ]
+      true,
+      [ "_", "forEach" ],
+      [ "_", "each" ],
+      [ "$", "each" ],
+      [ "angular", "forEach" ]
     ],
     "class-name": true,
     "comment-format": [
@@ -67,10 +67,13 @@
     "no-eval": true,
     "no-inferrable-types": false,
     "no-internal-module": true,
-    "no-invalid-this": true,
+    "no-invalid-this": [
+      true,
+      "check-function-in-method"
+      ],
     "no-null-keyword": true,
     "no-reference": true,
-    "no-require-imports": false,
+    "no-require-imports": true,
     "no-shadowed-variable": true,
     "no-string-literal": true,
     "no-switch-case-fall-through": true,
@@ -90,6 +93,9 @@
       "check-finally",
       "check-whitespace"
     ],
+    "one-variable-per-declaration": [true,
+      "ignore-for-loop"
+    ],
     "quotemark": [
       true,
       "double",
@@ -108,7 +114,7 @@
     "triple-equals": [
       true,
       "allow-null-check",
-      "allow-null-check"
+      "allow-undefined-check"
     ],
     "typedef": [
       true,
