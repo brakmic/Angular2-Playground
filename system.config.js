@@ -4,6 +4,9 @@ System.config({
 			"@angular": "node_modules/@angular",
 			"app": "dist/app",
 		},
+		paths: {
+			"bows": "node_modules/bows/dist/bows.min.js",	
+		},
 		packages: {
 			"@angular/core": {
 				main: "index"

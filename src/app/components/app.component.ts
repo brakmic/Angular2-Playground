@@ -1,8 +1,11 @@
 import { Component } from "@angular/core";
+import bows from "bows";
+
+const log: any = bows("AppComponent");
 
 @Component({
   selector: "ang2-app",
-  templateUrl: "../templates/app.template.html",
+  templateUrl: "app/templates/app.template.html",
 })
 export class AppComponent {
 
@@ -11,6 +14,7 @@ export class AppComponent {
   private userDate: string = undefined;
 
   constructor() {
+    log("Init");
     this.userDate = (new Date()).toString();
   }
 

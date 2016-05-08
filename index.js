@@ -53,11 +53,11 @@ server.route({
 });
 
 server.route({
-      path: '/lib/{filename*}',
+      path: '/libs/{filename*}',
       method: 'GET',
       handler: {
         directory: {
-            path: 'dist/lib',
+            path: 'dist/libs',
             listing: false
         }
     }
@@ -82,6 +82,8 @@ server.route({
 });
 
 /* start server */
-server.start(function() {
+module.exports = (function(){
+  server.start(function() {
     console.log('Server running at:', server.info.uri);
-});
+  });
+}());

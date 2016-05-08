@@ -10,7 +10,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "client": "node index.js",
-    "tslint": "tslint -c tslint.json src/app/**/*.ts"
+    "tslint": "tslint -c tslint.json ./src/app/**/*.ts"
   },
   "author": "brakmic@gmail.com",
   "license": "MIT",

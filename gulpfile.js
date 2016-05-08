@@ -107,7 +107,7 @@ gulp.task("compile", ["clean:js","tslint"], () => {
 
 // watch for changes
 gulp.task('watch', () => {
-    var watchTs = gulp.watch('src/app/**/**.ts', [ "systemjs:build" ]),
+    var watchTs = gulp.watch('src/app/**/**.ts', [ "build" ]),
         watchCss = gulp.watch(['./index.html','styles/**/*.css'], [ 'copy:assets' ]),
         watchTemplates = gulp.watch('src/app/templates/**/*.html', [ 'copy:templates' ]),
         onChanged = function(event) {
@@ -120,5 +120,5 @@ gulp.task('watch', () => {
 });
 
 gulp.task("minify", ["run:minifyJs","run:minifyCss"]);
-gulp.task("build", ["systemjs:build", "concat:libs", "copy:assets", "copy:templates"]);
+gulp.task("build", ["systemjs:build", "concat:libs", "copy:templates", "copy:assets"]);
 gulp.task("default", ["build"]);
