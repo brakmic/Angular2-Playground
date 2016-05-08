@@ -17,7 +17,6 @@ export class AppComponent {
     log("Init");
     this.userDate = (new Date()).toString();
   }
-
   public writeLog(): void {
     let date: Date = new Date();
     this.userDate = `[CLICK] : ${date.toString()}`;
